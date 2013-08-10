@@ -9,14 +9,13 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Jekyll Bootstrap
-tagline: Site Tagline
+title : Tor Nilsson Öhrn
+tagline: Media Technology and Engineering Student
 author :
-  name : Name Lastname
-  email : blah@email.test
-  github : username
-  twitter : username
-  feedburner : feedname
+  name : Tor Nilsson Öhrn
+  email : tornilssonohrn@gmail.com
+  github : biggestT
+  twitter : tornilssonohrn
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -26,7 +25,7 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://username.github.io
+production_url : http://biggestT.github.io
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -72,6 +71,9 @@ JB :
   #
   archive_path: /archive.html
   categories_path : /categories.html
+  code_path : /code.html
+  story_path : /story.html
+  film_path : /film.html
   tags_path : /tags.html
   atom_path : /atom.xml
   rss_path : /rss.xml
@@ -83,7 +85,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : jekyllbootstrap
+      short_name : toneydevelopment
     livefyre :
       site_id : 123
     intensedebate :
@@ -101,7 +103,7 @@ JB :
   analytics :
     provider : google 
     google : 
-        tracking_id : 'UA-123-12'
+        tracking_id : 'UA-43083354-1'
     getclicky :
       site_id : 
     mixpanel :
@@ -116,7 +118,7 @@ JB :
   # Set 'provider' to false to turn sharing off globally.
   #
   sharing :
-    provider : false
+    provider : facebook
     
   # Settings for all other include helpers can be defined by creating 
   # a hash with key named for the given helper. ex:

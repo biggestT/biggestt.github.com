@@ -95,14 +95,22 @@ a:active{
 /* Headers */
 @font-face {
     font-family: 'TheanoDidotRegular';
-    src: url('TheanoDidot-Regular-webfont.ttf') format('truetype');
+    src: url('fonts/TheanoDidot-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 
 }
 
+.padded {
+  padding: 5px;
+  background: #FBFBFB;
+  border-top: 1px solid #EAEAEA;
+  border-bottom: 1px solid #EAEAEA;
+}
+
 h1{
-  margin: 30px 0 20px;
+  margin-top: 10px;
+  margin-bottom: -15px;
   /* font-size: 3.3em; */
   font: 5.0em 'TheanoDidotRegular', Arial, sans-serif;
   font-weight: normal;
@@ -206,22 +214,30 @@ input[type=submit]:focus{
 }
 
 /* Structure */
-
-#siteWrapper{
-  margin: 0 auto;
+.container-side {
+  margin: 0 30% 0 10%;
   padding-top: 15px;
+  width: 800px;
+  text-align: left;
+  position: relative;
+}
+.container-narrow{
+  margin: 0 auto;
+  padding-top: 0px;
   width: 500px;
   text-align: center;
   position: relative;
   
 }
 #siteDescription{
-  font-size: 1.2em;
-  margin: 0px auto 10px;
+  font-size: 1.3em;
+  margin: 0px auto 20px auto;
   width: 400px;
-  padding: 11px 0 13px;
+  padding: 0px 0 0px;
   color: #999;
   font-style: italic;
+  padding-top: 10px;
+  border-top: 1px solid #eeeeee
 }
 
 /* Main Navigation
@@ -230,10 +246,6 @@ input[type=submit]:focus{
 #mainNav{
   margin-top: 10px;
   margin-bottom: 10px;
-  padding: 5px;
-  background: #FBFBFB;
-  border-top: 1px solid #EAEAEA;
-  border-bottom: 1px solid #EAEAEA;
 }
 #mainNav ul{
   margin: 0 auto;
