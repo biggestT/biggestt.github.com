@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "the Porters and the Mountain"
-description: "a Documentary about humans and their environment"
+tagline: "a Documentary about humans and their environment"
 category: film
 tags: [INUG, engingeers without borders]
 ---

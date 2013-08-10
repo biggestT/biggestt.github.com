@@ -62,11 +62,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/* Puzzle */
-#puzzle {
-	position: relative;
-	margin-left: 200px;
-	padding-bottom: 110px;}
+
 /* Global Styles
 -------------------------------------------------------------------*/
 
@@ -224,7 +220,7 @@ input[type=submit]:focus{
 .container-narrow{
   margin: 0 auto;
   padding-top: 0px;
-  width: 500px;
+  width: 700px;
   text-align: center;
   position: relative;
   

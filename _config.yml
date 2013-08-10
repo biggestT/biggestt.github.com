@@ -27,6 +27,13 @@ author :
 #
 production_url : http://biggestT.github.io
 
+categories: 
+    code:
+      tagline: NullPointerException
+    text: 
+      tagline: This is not a blog
+    film: 
+      tagline: It's like when Youtube only had one video
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
 JB :
@@ -69,14 +76,16 @@ JB :
   # These paths are to the main pages Jekyll-Bootstrap ships with.
   # Some JB helpers refer to these paths; change them here if needed.
   #
+  film_path : /film
+  text_path : /text
+  code_path : /code
   archive_path: /archive.html
   categories_path : /categories.html
-  code_path : /code.html
-  story_path : /story.html
-  film_path : /film.html
   tags_path : /tags.html
   atom_path : /atom.xml
   rss_path : /rss.xml
+
+  
 
   # Settings for comments helper
   # Set 'provider' to the comment provider you want to use.
