@@ -42,34 +42,36 @@
             <h1 class="vcard author ">
               <a class="fn" title="home" href="{{ HOME_PATH }}">{{ site.title }}</a>
             </h1>
-          <div class="container-narrow">
          
           <div id="siteDescription">{{ site.tagline }}</div>
-          </div>
+          
         </div>
     </div>
-    <div class="container-narrow">
-            
-            <div class="padded" id="mainNav">
-            <ul>
-              {% assign categories_list = site.categories %}  
-              {% assign group = 'navigation' %}
-              {% include JB/categories_list %}
-            </ul>
-          </div>
+              
+    <div class="padded" id="mainNav">
+      <ul>
+        {% assign categories_list = site.categories %}  
+        {% assign group = 'navigation' %}
+        {% include JB/categories_list %}
+      </ul>
+    </div>
 
-      <div class="content">
-        {{ content }}
+    <div id="background">
+      <div class="container-narrow">
+        <div class="content">
+          {{ content }}
+        </div>
+        <hr>
       </div>
-      <hr>
+    </div>
+    <div class="container-narrow">
       <footer>
         <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
           with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>          , <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a> and the <a href="http://themes.jimbarraud.com/manifest/">Manifest Theme</a>
         </p>
       </footer>
       <hr>
-    </div>
-
+    </div>  
     {% include JB/analytics %}
   </body>
 </html>

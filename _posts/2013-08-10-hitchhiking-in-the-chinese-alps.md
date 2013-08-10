@@ -3,6 +3,7 @@ layout: post
 title: "Hitchhiking in the Chinese Alps"
 tagline: "Having fun without the internet"
 category: text
+cover: "alps.jpg"
 tags: [adventure, hitchhiking]
 ---
 {% include JB/setup %}

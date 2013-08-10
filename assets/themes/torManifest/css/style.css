@@ -105,7 +105,6 @@ a:active{
 }
 
 h1{
-  margin-top: 10px;
   margin-bottom: -15px;
   /* font-size: 3.3em; */
   font: 5.0em 'TheanoDidotRegular', Arial, sans-serif;
@@ -114,6 +113,9 @@ h1{
   text-transform: uppercase;
   letter-spacing: .05em;
   word-spacing: .2em;
+}
+.author {
+  margin-top: 10px;
 }
 h1 a:link,
 h1 a:visited{
@@ -232,6 +234,7 @@ input[type=submit]:focus{
   padding: 0px 0 0px;
   color: #999;
   font-style: italic;
+  text-align: center;
   padding-top: 10px;
   border-top: 1px solid #eeeeee
 }
@@ -239,9 +242,12 @@ input[type=submit]:focus{
 /* Main Navigation
 -------------------------------------------------------------------*/
 
+.navbar {
+  margin-bottom: 0px;
+}
 #mainNav{
-  margin-top: 10px;
-  margin-bottom: 10px;
+  /*margin-top: 10px;*/
+  /*margin-bottom: 10px;*/
 }
 #mainNav ul{
   margin: 0 auto;
