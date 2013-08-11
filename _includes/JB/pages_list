@@ -27,10 +27,23 @@ Usage:
     {% if node.title != null %}
       {% if group == null or group == node.group %}
       	{% if page.url == node.url %}
-      	<li class="active preview"><a href="{{ BASE_PATH }}{{node.url}}" class="active"><h1>{{node.title}}</h1>
-        <img class="prevImg" src="{{ HOME_PATH }}assets/images/{{ node.cover }}"></img></a></li>
-      	{% else %}
-      	<li class="preview" ><a href="{{ BASE_PATH }}{{node.url}}"><h1>{{node.title}}</h1><img class="prevImg" src="{{ HOME_PATH }}assets/images/{{ node.cover }}"></img></a></li>
+      	<li class="active preview">
+          <a href="{{ BASE_PATH }}{{node.url}}" class="active">
+            <div class="prevImg">
+              <img class="prevImg" src="{{ HOME_PATH }}assets/images/{{ node.cover }}"></img>
+            </div>
+            <h1>{{node.title}}</h1>
+          </a>
+        </li>
+        {% else %}
+        <li class="preview" >
+          <a href="{{ BASE_PATH }}{{node.url}}">
+            <div class="prevImg">
+              <img class="prevImg" src="{{ HOME_PATH }}assets/images/{{ node.cover }}"></img>
+            </div>
+            <h1>{{node.title}}</h1>
+          </a>
+        </li>
       	{% endif %}
       {% endif %}
     {% endif %}
