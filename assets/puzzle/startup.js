@@ -6,10 +6,11 @@ $(function() {
 
 	// CONSTANTS
 	rows = 3;
-	size = 33;
+	size = 22;
 	speed = 400;
-	
+
 	roundness = 30;
+	
 	
 	// var isHome = false;
 	// if ($('body').attr('class') == 'home page page-id-58 page-template-default') {
