@@ -1,5 +1,13 @@
 $(function () {
 
+	// Add capton text to images
+	$('.content img').each( function () {
+		var captionText = $(this).attr('alt');
+		var caption = $('<p>');
+		caption.attr('class', 'caption');
+		caption.text(captionText);
+		$(this).parent().append(caption);
+	})
 	// SHOWING FIRST POST TITLE WHEN HOVERING OVER A CATEGORY
 	var siteDescription = $('#siteDescription').html();
 	$('#mainNav a').hover(function() {
@@ -32,29 +40,72 @@ $(function () {
 	// 		});
 	// 	};
 	// });
+	
 
-	// SETTING THE NATIVE WIDTH OF EACH PREVIEW IMAGE
-	$('img.prevImg').each( function (i) {
-		var previewImage = new Image();
-		previewImage.src = $(this).attr('src');
-		console.log(this);
+	// GLOCAL VARIABLES
+	// ---------------
 
-		previewImage.onload = function (e) {
+	var previewImages = [];
 
-			var matchWidth = this.parent().width();
-			var matchHeight = this.parent().height();
+	var constrainingDivId = '.container-narrow';
+	var matchWidth = $(constrainingDivId).width();
+	var matchHeight = $(constrainingDivId).height();
 
-			console.log(matchWidth + ' ' + matchHeight );
-			// if (matchWidth < e.)
-			var ratio = 1-(e.srcElement.width-matchWidth)/e.srcElement.width;
-			var newHeight = e.srcElement.height*ratio;
+	// GATHER ALL OF THE PREVIEW IMAGES
+	// ----------------------------------
 
-			this.css({
-				'width': matchWidth,
-				'height': newHeight,
-			});
-		}.bind($(this));
-	});
+	var initalizePreviewImages = function () {
+		$('img.prevImg').each( function (i) {
+			previewImages[i] = new Image();
+			previewImages[i].src = $(this).attr('src');
+			previewImages[i].owner = $(this);
+			previewImages[i].onload = firstTimeCrop;
+		});
+	}
+
+	
+	// CROPPING OF THE PREVIEW IMAGES
+	// ----------------------------------
+	
+	var cropImage = function (img) {
+		var w = img.width;
+		var ratio = 1 - (img.width - matchWidth)/img.width;
+		var newHeight = img.height * ratio;
+
+		img.owner.css({
+			'width': matchWidth,
+			'height': newHeight,
+		});
+		console.log(img);
+	}
+
+	var firstTimeCrop = function (e) {
+		cropImage(e.srcElement);
+	}
+	
+	var reCropAllPreviewImages = function () {
+		// update proportions to match
+		matchWidth = $(constrainingDivId).width();
+		matchHeight = $(constrainingDivId).height();
+
+		for (i in previewImages) {
+			cropImage(previewImages[i]);
+		}
+	}
+
+	// redo croppin if window size changes
+	// -------------------------------
+	window.onresize = reCropAllPreviewImages;
+
+
+	// Start doing the initial cropping!
+	// --------------------------
+	initalizePreviewImages();
+
+
+
+
+
 	
 
 });	

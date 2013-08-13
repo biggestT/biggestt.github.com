@@ -11,6 +11,7 @@ tags: [travelling, burma]
 
 Obviously you will seem like a lonetard as soon as you proclaim your plans of flying solo on a trip. But then you soon realise that alone only is one less than together and sometimes its even more than that. Sometimes you need to hang out with a place instead of your friends. This is what happened when i hanged out with my buddy Burma ..  
 
+!["We first met through a shared view - she loved me and I did too" - Mike Skinner a.k.a the Streets]({{ BASE_PATH }}/assets/images/burma.jpg)
 
 So before i went to Burma I did not know what to think because politics are very complicated. It has been said though that politics thinks of you whether or not you think of them. Therefore it calls for some research to come as a tourist to a country that until recently was run by a military junta. That is if you don't want to come of as merely a kill-kony-freedom-fighter. Still me, myself and I ended up not doing so much research and only motivated my presence, and therefore unavoidable monetary support to the government, by a simple thought. I thought that seeing is better than believing and without actually seeing Burma it wouldn't make much sense to believe in what you hear about it. Finally i got this confirmed from Aung San Suu Kyi when she changed her opinion about people visiting her country. I also came to the conclusion that in order to experience the country more I should travel alone and hence let all my senses be open. 
 

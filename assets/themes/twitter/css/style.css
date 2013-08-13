@@ -101,10 +101,10 @@ a:active{
 
 }
 
-h1{
+h1 h2{
   margin: 30px 0 20px;
   /* font-size: 3.3em; */
-  font: 5.0em 'TheanoDidotRegular', Arial, sans-serif;
+  font: 'TheanoDidotRegular', Arial, sans-serif;
   font-weight: normal;
   text-align:center;
   text-transform: uppercase;

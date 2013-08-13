@@ -75,6 +75,33 @@ strong{
   font-weight: bold;
 }
 
+.content p, .content .date {
+  font-size: 1.9em;
+  height: 120%;
+}
+.content p {
+  text-align: left;
+  margin-bottom: 30px;
+  word-spacing: 0.13em;
+  letter-spacing: 0.05em;
+  height: 140%;
+  display: block;
+}
+
+p.caption {
+  font-size: 80%;
+  font-style: italic;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.date {
+  font-size: 1.4vw;
+  font-style: italic;
+  margin-bottom: 40px;
+  color: #999999;
+}
+
 /* Links */
 
 a:link,
@@ -104,18 +131,39 @@ a:active{
   border-bottom: 1px solid #EAEAEA;
 }
 
-h1{
-  margin-bottom: -15px;
+h1, h2{
   /* font-size: 3.3em; */
-  font: 5.0em 'TheanoDidotRegular', Arial, sans-serif;
+  font: 'TheanoDidotRegular', Arial, sans-serif;
   font-weight: normal;
   text-align:center;
   text-transform: uppercase;
   letter-spacing: .05em;
   word-spacing: .2em;
+  display: block;
 }
-.author {
+h1 {
+  font-size: 5.0em;
+  font-size: 5vw; /* poor support for viewport percentage? */
+  line-height: 160%;
+}
+h1.title {
+  border-bottom: 1px solid #EAEAEA;
+  color: #9C8A6A;
+}
+h2  {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 2.5em;
+  font-size: 2.5vw;
+  line-height: 150%;
+  color:#999999;
+}
+
+h1.author {
+  font-size: 4.0em;
+  font-size: 4.0vw;
   margin-top: 10px;
+  margin-bottom: -18px;
 }
 h1 a:link,
 h1 a:visited{
@@ -126,17 +174,10 @@ h1 a:active{
   color: #000;
   text-decoration: underline;
 }
-h2{
-  margin-top: 30px;
-  margin-bottom: 10px;
-  font-size: 2.4em;
-  font-weight: normal;
-  color: #000;
-  text-transform: uppercase;
-}
 h3{
   margin-bottom: 5px;
-  font-size: 2.3em;
+  font-size: 1.5em;
+  font-size: 1.5vw;
   font-weight: normal;
 }
 h3 a:link,
@@ -222,7 +263,8 @@ input[type=submit]:focus{
 .container-narrow{
   margin: 0 auto;
   padding-top: 0px;
-  width: 700px;
+  width: 60%;
+  min-width: 300px;
   text-align: center;
   position: relative;
   
@@ -339,7 +381,7 @@ input[type=submit]:focus{
 }
 .prevImg {
   width: 100%;
-  height: 200px;
+  height: 130px;
   overflow: hidden;
 }
 .prevImg img {
@@ -870,22 +912,27 @@ legend span{
 /* Paging Navigation
 -------------------------------------------------------------------- */
 
-.pageNav{
+.pagination{
   margin-top: 40px;
 }
-.pageNav a:link,
-.pageNav a:visited {
-  font-size: 1.5em;
+.pagination a:link,
+.pagination a:visited {
+  font-size: 2.0em;
+  font-size: 2.0vw;
+  line-height: 160%
 }
-.pageNav .prev,
-.pageNav .next{
+.pagination .prev,
+.pagination .next{
   display: block;
 }
-.pageNav .prev{
+.pagination .prev{
   float: left;
 }
-.pageNav .next{
+.pagination .next{
   float: right;
+}
+.pagination .icon-tags {
+  margin-bottom: 20px;
 }
 
 /* Archives

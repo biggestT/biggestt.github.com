@@ -1,5 +1,8 @@
 <div class="page-header">
-  <h1>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1>
+  <h1 class="title">{{ page.title }} </h1>
+  {% if page.tagline %}
+    <h2 class="tagline">{{page.tagline}}</small>
+  {% endif %}
 </div>
 
 <div class="row-fluid post-full">
@@ -11,8 +14,10 @@
       {{ content }}
     </div>
 
+  {% comment %}<!-- CURRENTLY NOT USING TAGS AND CATEGORY VIEWS
+
   {% unless page.categories == empty %}
-    <ul class="tag_box inline">
+    <ul class="pagination tag_box ">
       <li><i class="icon-folder-open"></i></li>
       {% assign categories_list = page.categories %}
       {% include JB/categories_list %}
@@ -20,13 +25,13 @@
   {% endunless %}  
 
   {% unless page.tags == empty %}
-    <ul class="tag_box inline">
+    <ul class="pagination tag_box ">
       <li><i class="icon-tags"></i></li>
       {% assign tags_list = page.tags %}
       {% include JB/tags_list %}
     </ul>
   {% endunless %}  
-
+  -->{% endcomment %}
     <hr>
     <div class="pagination">
       <ul>
@@ -35,7 +40,8 @@
       {% else %}
         <li class="prev disabled"><a>&larr; Previous</a></li>
       {% endif %}
-        <li><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a></li>
+        <!-- CURRENTLY HAS NOT IMPLEMENTED THE ARCHIVE VIEW -->
+        <!-- <li><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a></li> -->
       {% if page.next %}
         <li class="next"><a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">Next &rarr;</a></li>
       {% else %}
