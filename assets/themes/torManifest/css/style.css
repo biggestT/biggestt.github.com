@@ -31,6 +31,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 }
 body {
 	line-height: 1;
+  background-color: white-smoke;
 }
 ol, ul {
 	list-style: none;
@@ -216,25 +217,29 @@ h5 abbr{
 }
 
 /* ICONS */
+.icons {
+  overflow: auto;
+}
 .icon {
   text-align: center;
   margin: 20px;
+  margin: 2%;
   color: #ccc;
-  float: left;
+}
+.icons a {
+  text-decoration: none;
+  display: inline-block;
 }
 .icon i {
     font-size: 5em;
     font-size: 5vw;
 }
 .icons p {
-    text-align:center;
     font-size: 2em;
     font-size: 2vw;
-    padding: 15px;
     font-family: 'TheanoDidotRegular', Arial, sans-serif;
 }
 .icons a:active, .icons a:hover {
-    text-decoration: none;
     color: #000;
 }
 
