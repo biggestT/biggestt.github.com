@@ -32,7 +32,7 @@ Usage:
             <div class="prevImg">
               <img class="prevImg" src="{{ HOME_PATH }}assets/images/{{ node.cover }}"></img>
             </div>
-            <h1>{{node.title}}</h1>
+            <h2 class="preview">{{node.title}}</h2>
           </a>
         </li>
         {% else %}
@@ -41,7 +41,7 @@ Usage:
             <div class="prevImg">
               <img class="prevImg" src="{{ HOME_PATH }}assets/images/{{ node.cover }}"></img>
             </div>
-            <h1>{{node.title}}</h1>
+            <h2 class="preview">{{node.title}}</h2>
           </a>
         </li>
       	{% endif %}
