@@ -37,6 +37,13 @@
   </head>
 
   <body>
+  <div class="padded headertext" id="mainNav">
+            <ul>
+              {% assign categories_list = site.categories %}  
+              {% assign group = 'navigation' %}
+              {% include JB/categories_list %}
+            </ul>
+          </div>
     <div class="navbar">
         <div class="navbar-inner">
           
@@ -44,13 +51,7 @@
               <a class="fn" title="home" href="{{ HOME_PATH }}">{{ site.title }}</a>
             </h2>
           <div id="siteDescription" class="headertext">{{ site.tagline }}</div>
-         <!--  <div class="padded headertext" id="mainNav">
-            <ul>
-              {% assign categories_list = site.categories %}  
-              {% assign group = 'navigation' %}
-              {% include JB/categories_list %}
-            </ul>
-          </div> -->
+          
           
         </div>
     </div>
