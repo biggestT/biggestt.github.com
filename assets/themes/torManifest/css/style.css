@@ -32,6 +32,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 body {
 	line-height: 1;
   background-color: white-smoke;
+	border: none;
 }
 ol, ul {
 	list-style: none;
@@ -95,7 +96,7 @@ p.caption {
 }
 
 .date {
-  font-size: 1.4vmax;
+  font-size: 1.7em;
   font-style: italic;
   margin-bottom: 10%;
   color: #999999;
@@ -123,13 +124,6 @@ a:active{
     font-style: normal;
 }
 @import url(http://fonts.googleapis.com/css?family=Merriweather);
-
-.padded {
-  padding: 5px;
-  background: #FBFBFB;
-  border-top: 1px solid #EAEAEA;
-  border-bottom: 1px solid #EAEAEA;
-}
 
 h1, h2{
   /* font-size: 3.3em; */
@@ -175,7 +169,7 @@ h2.tagline {
 }
 .page-header {
   margin: 10% 0 7% 0;
-  height: 80vh;
+  height: 70vh;
   border: none;
 }
 
@@ -251,8 +245,7 @@ a.icon {
 }
 .icon i {
     text-decoration: none;
-    font-size: 6em;
-    font-size: 7vmax;
+    font-size: 10em;
 }
 .icons p {
     font-size: 1.5em;
@@ -264,11 +257,21 @@ a.icon:active, a.icon:hover {
 
 /* CONTENT 
   ------------------------------------------ */
+.content {
+  /*border-top: 1px solid #EAEAEA;*/
+  padding-top: 3%;
+}
 
 .content > h2 {
   font-size: 2.5vmax;
   margin-top: 10%;
   margin-bottom: 5%;
+}
+
+.content  img {
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 2%;
 }
 
 /* Structure */
@@ -283,31 +286,31 @@ a.icon:active, a.icon:hover {
   position: relative;
   
 }
-#siteDescription{
-  font-size: 1.3em;
+.headertext {
   margin: 0px auto 20px auto;
-  width: 400px;
   color: #999;
-  font-style: italic;
   text-align: center;
   padding-top: 10px;
   border-top: 1px solid #eeeeee
+}
+#mainNav {
+  width: 15vw;
+}
+#siteDescription {
+  width: 25vw;
+  font-size: 1.3em;
+  font-style: italic;
 }
 
 /* Main Navigation
 -------------------------------------------------------------------*/
 
 .navbar {
+  margin-top: 10vh;
   margin-bottom: 0px;
-}
-#mainNav{
-  /*margin-top: 10px;*/
-  /*margin-bottom: 10px;*/
 }
 #mainNav ul{
   margin: 0 auto;
-  width: 45em;
-  text-align: center;
 }
 #mainNav li{
   display: inline;
@@ -409,13 +412,8 @@ a.icon:active, a.icon:hover {
 /* Footer
 -------------------------------------------------------------------- */
 
-#footer{
-  width: 500px;
-  margin: 40px auto 0;
-  padding: 20px 0 35px 0;
-  border-top: 4px double #ccc;
-  color: #666;
-  text-align: center;
+footer{
+  margin: 40px auto;
 }
 .footerContent{
   width: 500px;
@@ -431,34 +429,11 @@ a.icon:active, a.icon:hover {
 #footer h5{
   position: relative;
   top: 0;
-  margin-bottom: 8px;
   font-family: constantia, palatino, times new roman;
   font-size: 1.3em;
   color: #666;
   font-weight: normal;
   text-transform: uppercase;
-  border-bottom: none;
 }
-#footer .elsewhere{
-  margin-bottom: 30px;
-}
-#footer .elsewhere li{
-  display: inline;
-  padding: 0 8px 0 0;
-  margin: 0 5px 0 0;
-  border-right: 1px dotted #ccc;
-  font-size: 1.2em;
-}
-#footer .elsewhere li:last-child{
-  padding: 0;
-  margin: 0;
-  border-right: none;
-}
-#footer #search input[type=text]{
-  font-size: 1.4em;
-  border-color: #ccc;
-}
-#footer #search input[type=text]:focus{
-  border-color: #999;
-}
+
 
