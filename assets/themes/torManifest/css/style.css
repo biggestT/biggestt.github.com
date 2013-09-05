@@ -79,13 +79,16 @@ strong{
 
 .content p {
   font-family: 'Merriweather';
-  font-size: 1.9em;
+  font-size: 1.7em;
   text-align: left;
   margin-bottom: 30px;
   word-spacing: 0.13em;
   letter-spacing: 0.05em;
   height: 140%;
   display: block;
+  padding: 0 2vw;
+  border-right: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
 }
 
 p.caption {
@@ -231,6 +234,10 @@ h5 abbr{
 }
 
 /* ICONS */
+
+.paper {
+  width: 30%;
+}
 .icons {
   overflow: auto;
   margin: 10vmin 0 5vmin 0;
@@ -272,6 +279,13 @@ a.icon:active, a.icon:hover {
   margin: 0 auto;
   display: block;
   margin-bottom: 2%;
+  max-width: 100%;
+  /* from twitter bootstrap css */
+  width: auto 9;
+  height: auto;
+  vertical-align: middle;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
 }
 
 /* Structure */
@@ -281,7 +295,7 @@ a.icon:active, a.icon:hover {
   padding-top: 0px;
   width: 80%;
   min-width: 300px;
-  max-width: 650px;
+  max-width: 620px;
   text-align: center;
   position: relative;
   
@@ -355,49 +369,33 @@ a.icon:active, a.icon:hover {
   width: 100%;
   height: 130px;
   overflow: hidden;
+  border-radius: 100%;
 }
 .prevImg img {
   width: 100%;
   height: 500px;
 }
 
-/* Links Page
--------------------------------------------------------------------*/
-
-#coreContent .entry-content #linkList{
-  margin-left: 0;
-}
-#coreContent .entry-content #linkList li{
-  list-style-type: none;
-  margin-left: 0;
-}
-#coreContent .entry-content #linkList li li{
-  font-size: .9em;
-  list-style-type: square;
-  margin-bottom: 20px !important;
-  margin-left: 15px;
-}
-#coreContent .entry-content #linkList ul{
-  margin: 10px 0 40px;
-}
 
 
 
 /* Paging Navigation
 -------------------------------------------------------------------- */
-
+/*
 .pagination{
-  margin-top: 40px;
-}
+  margin: 40px 0;
+}*/
 .pagination a:link,
 .pagination a:visited {
-  font-size: 2.0em;
-  font-size: 2.0vmax;
-  line-height: 160%
+  font-size: 2.5em;
 }
 .pagination .prev,
 .pagination .next{
   display: block;
+  margin: 15vh;
+}
+.pagination .disabled {
+  display: none;
 }
 .pagination .prev{
   float: left;
