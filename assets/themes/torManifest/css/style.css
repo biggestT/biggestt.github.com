@@ -157,7 +157,8 @@ h2  {
   line-height: 150%;
   color:#999999;
 }
-h2.preview {
+.preview-title {
+  font-size: 1.5em;
   color: #9C8A6A;
 }
 h2.tagline {
@@ -312,6 +313,7 @@ a.icon:active, a.icon:hover {
 }
 #siteDescription {
   width: 25vw;
+  min-width: 300px;
   font-size: 1.3em;
   font-style: italic;
 }
@@ -363,17 +365,22 @@ a.icon:active, a.icon:hover {
 -------------------------------------------------------------------*/
 
 .preview {
-  margin-bottom: 30px;
+  margin: 0 20px 30px 20px;
+  width: 150px;
+  float:left;
 }
 .prevImg {
-  width: 100%;
-  height: 130px;
+  height: 150px;
+  /*width: 200px;*/
   overflow: hidden;
-  border-radius: 100%;
+  border-radius: 75px;
 }
 .prevImg img {
-  width: 100%;
-  height: 500px;
+  height: 150px;
+}
+
+.centered {
+  display: inline-block;
 }
 
 
@@ -412,6 +419,7 @@ a.icon:active, a.icon:hover {
 
 footer{
   margin: 40px auto;
+  clear: both;
 }
 .footerContent{
   width: 500px;
