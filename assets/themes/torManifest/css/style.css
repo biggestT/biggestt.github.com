@@ -70,7 +70,7 @@ table {
 
 body{
   background: #fff;
-  font: 62.5% palatino, "times new roman", serif;
+  font: 70% palatino, "times new roman", serif;
   color: #333;
 }
 strong{
@@ -235,15 +235,20 @@ h5 abbr{
 }
 
 /* ICONS */
+@import url(http://fonts.googleapis.com/css?family=Dawning+of+a+New+Day);
+
+li {
+  float: left;
+  margin: 0 10px 0 10px;
+}
+.handwritten {
+  font-family: 'Dawning of a New Day', cursive;
+}
 
 .paper {
   width: 30%;
 }
-.icons {
-  overflow: auto;
-  margin: 10vmin 0 5vmin 0;
-  text-align: center;
-}
+
 
 a.icon {
   text-decoration: none;
@@ -253,11 +258,7 @@ a.icon {
 }
 .icon i {
     text-decoration: none;
-    font-size: 10em;
-}
-.icons p {
-    font-size: 1.5em;
-    font-family: 'TheanoDidotRegular', Arial, sans-serif;
+    font-size: 3em;
 }
 a.icon:active, a.icon:hover {
     color: #87CEFA;
@@ -365,18 +366,18 @@ a.icon:active, a.icon:hover {
 -------------------------------------------------------------------*/
 
 .preview {
-  margin: 0 20px 30px 20px;
-  width: 150px;
+  margin: 20vh 30px 30px 30px;
+  width: 100px;
   float:left;
 }
 .prevImg {
-  height: 150px;
+  height: 100px;
   /*width: 200px;*/
   overflow: hidden;
-  border-radius: 75px;
+  /*border-radius: 25px;*/
 }
 .prevImg img {
-  height: 150px;
+  height: 100px;
 }
 
 .centered {

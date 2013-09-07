@@ -10,7 +10,7 @@ $(function () {
 	})
 	// SHOWING FIRST POST TITLE WHEN HOVERING OVER A CATEGORY
 	var siteDescription = $('#siteDescription').html();
-	$('#mainNav a, a.icon').hover(function() {
+	$('.preview, .icon').hover(function() {
 		var description = $(this).attr('title');
 		$('#siteDescription').html(description);   
 		}, function() {

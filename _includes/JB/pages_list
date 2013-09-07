@@ -27,7 +27,7 @@ Usage:
     {% if node.title != null %}
       {% if group == null or group == node.group %}
       	{% if page.url == node.url %}
-      	<li class="active preview">
+      	<li class="active preview" title="{{node.tagline}}">
           <a href="{{ BASE_PATH }}{{node.url}}" class="active">
             <div class="prevImg">
               <img class="prevImg" src="{{ HOME_PATH }}assets/images/{{ node.cover }}"></img>
@@ -36,7 +36,7 @@ Usage:
           </a>
         </li>
         {% else %}
-        <li class="preview" >
+        <li class="preview" title="{{node.tagline}}">
           <a href="{{ BASE_PATH }}{{node.url}}">
             <div class="prevImg">
               <img class="prevImg" src="{{ HOME_PATH }}assets/images/{{ node.cover }}"></img>

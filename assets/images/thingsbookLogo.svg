@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   version="1.1"
+   width="680.37384"
+   height="650.34119"
+   id="svg3103">
+  <metadata
+     id="metadata3109">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs3107">
+    <linearGradient
+       id="linearGradient3883">
+      <stop
+         id="stop3885"
+         style="stop-color:#64bb40;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop3887"
+         style="stop-color:#5bff5b;stop-opacity:1"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       x1="30.238834"
+       y1="377.58365"
+       x2="710.61267"
+       y2="377.58365"
+       id="linearGradient3980"
+       xlink:href="#linearGradient3883"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-30.238834,-52.516178)" />
+  </defs>
+  <rect
+     width="680.37384"
+     height="650.13495"
+     ry="181.433"
+     x="0"
+     y="0"
+     id="rect3972"
+     style="fill:url(#linearGradient3980);fill-opacity:1;stroke:none" />
+  <path
+     d="m 61.614549,315.40853 68.427111,0 0,238.8946 c 0,0 -2.40095,44.41759 18.00713,63.62519 20.40809,19.20761 61.22424,32.41284 61.22424,32.41284 l 111.64422,0 0,-88.83518 -63.6252,0 c 0,0 -12.00476,-1.20047 -20.40808,-14.4057 -8.40333,-13.20523 -9.6038,-31.21236 -9.6038,-31.21236 l 0,-198.07844 92.4366,0 -12.00475,-91.23613 -78.0309,0 0,-110.44374 -98.43898,0 0,110.44374 -69.627591,0 z"
+     id="path3113"
+     style="fill:#ffffff;fill-opacity:1;stroke:none" />
+</svg>
