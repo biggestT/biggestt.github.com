@@ -137,7 +137,6 @@ h1, h2{
   letter-spacing: .05em;
   word-spacing: .2em;
   display: block;
-  color: gray;
 }
 h1 {
   font-size: 5.2em;
@@ -155,17 +154,16 @@ h2  {
   margin-bottom: 10px;
   font-size: 2.6em;
   line-height: 150%;
-  color:#999999;
 }
 .preview-title {
   font-size: 1.5em;
-  color: #9C8A6A;
 }
 h2.tagline {
   border-bottom: 1px solid #EAEAEA;
   border-top: 1px solid #EAEAEA;
   padding: 2% 0;
   margin: 1% 0;
+  color: gray;
 }
 .mirror {
   float: left;
@@ -254,14 +252,12 @@ a.icon {
   text-decoration: none;
   display: inline-block;
   margin: 0 5%;
-  color: #ddd;
 }
 .icon i {
     text-decoration: none;
     font-size: 3em;
 }
 a.icon:active, a.icon:hover {
-    color: #87CEFA;
 }
 
 /* CONTENT 
