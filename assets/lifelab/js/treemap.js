@@ -1,6 +1,6 @@
 (function () {
 
-	app.
+	// app.
 	// private utility class area
 	var Area = function (a, n, i) {
 		this.area = a;
