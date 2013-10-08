@@ -14,8 +14,6 @@ Thingsbook is about connecting physical things and their owners in a distributed
 
 ![In May 2013 Thingsbook won the environmental category of Venture Cup East's new business idea competition.]({{ BASE_PATH }}/assets/images/moneyz.jpg)
 
-I am currently working on an initial prototype to demonstrate the concept. The prototype utilizes the Dropbox API for client side authorization as well as image hosting. The client is backed up by a simple Node.js server side that is connected to a Neo4j graph database. Hopefully I can showcase all of my belongings there sometime during this winter. 
-
 My final goals for Thingsbook is to:
 
 - Show how things can be shared and traded without unnecessary transports. The platform will be designed for local sharing and trading.
@@ -26,3 +24,4 @@ My final goals for Thingsbook is to:
 
 Of course I can't do all of these things myself so I am very much looking for like-minded people to join this cause!
 
+In the meantime I am working on an initial prototype to demonstrate this concept. The prototype utilizes the Dropbox API for client side authorization as well as image hosting. The client is backed up by a simple Node.js server side that is connected to a Neo4j graph database. Hopefully I can showcase all of my belongings there sometime during this winter. 
