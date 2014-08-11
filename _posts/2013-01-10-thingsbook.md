@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Thingsbook"
-tagline: "A new social material network"
+title: "Tings"
+tagline: "Smarter Ownership"
 category: projects
-cover: "thingsbookLogo.svg"
+cover: "tings_logo.png"
 tags: []
 ---
 {% include JB/setup %}
@@ -11,27 +11,14 @@ tags: []
 
 ## IDEA
 
-Today we own things in a rather old-school way. While our social lives have become increasingly connected, our material possessions have not yet been invited to the same kind of networking.
+Today we own things in a rather old-school way. While our social lives have become increasingly connected and digitally managed, our material possessions have not yet been invited to the same kind of networking.
 
-Thingsbook is about connecting physical things and their owners. It's about you having a digital representation of your possession and connecting it to friends you really trust. 
+Tings is about giving physical products digital profiles. It's about you having a digital representation of your possessions that can be viewed and shared with people you trust.
 
-The Thingsbook way of sharing lets you use more while owning less.
-
-![In May 2013 Thingsbook won the environmental category of Venture Cup East's new business idea competition.]({{ BASE_PATH }}/assets/images/moneyz.jpg)
+![In May 2013 I won the environmental category of Venture Cup East's new business idea competition.]({{ BASE_PATH }}/assets/images/moneyz.jpg)
 
 ## Goals
-
-- Show how things can be shared and traded without unnecessary transports. The platform will be designed for local sharing and trading.
-
-- Create a distributed system architecture for sharing things similar to the approach that Git has taken for source-code sharing. 
-
 - Prolong the lifetime of things by giving them persistent profiles that follow them instead of the ad-based system of today.
 
-Of course I can't do all of these things myself so I am very much looking for like-minded people to join this cause!
+- Use smartphones and NFC technology to turn everyone into a walking library of things.
 
-
-## Prototype
-
-I have started working on an initial prototype to demonstrate the main concept. This prototype utilizes the Dropbox API for client side authentication as well as image hosting. It is backed up by a simple Node.js server side connected to a Neo4j graph database. 
-
-My plan is to showcase all of my own belongings on the prototype platform before the spring of 2014.

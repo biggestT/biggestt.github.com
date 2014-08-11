@@ -439,4 +439,14 @@ footer{
   text-transform: uppercase;
 }
 
-
+@media (max-width: 768px) {
+  .prevImg {
+    height: 60px;
+  }
+  .prevImg img {
+    height: 60px;
+  }
+  .preview {
+    margin: 15vh 10px 10px 10px;
+  }
+}
