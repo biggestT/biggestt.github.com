@@ -83,9 +83,6 @@ strong{
   text-align: left;
   margin-bottom: 30px;
   word-spacing: 0.13em;
-  letter-spacing: 0.05em;
-  height: 140%;
-  display: block;
   padding: 0 2vw;
   border-right: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
@@ -171,7 +168,6 @@ h2.tagline {
 }
 .page-header {
   margin: 10% 0 7% 0;
-  height: 70vh;
   border: none;
 }
 
