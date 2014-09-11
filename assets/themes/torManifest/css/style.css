@@ -11,6 +11,10 @@ Tags: simple, clean, single column
 
 /* Reset All Styles
 -------------------------------------------------------------------- */
+@font-face {
+    font-family: Savoy;
+    src: url(../../../fonts/savoy.ttf);
+}
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -78,12 +82,15 @@ strong{
 }
 
 .content p {
-  font-family: 'Merriweather';
+  /*font-family: 'Savoy', Georgia, serif;*/
   font-size: 1.7em;
   text-align: left;
   margin-bottom: 30px;
   word-spacing: 0.13em;
   padding: 0 2vw;
+  color: #666;
+  line-height: 32px;
+  font-size: 20px;
   border-right: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
 }
@@ -287,9 +294,9 @@ a.icon:active, a.icon:hover {
 .container-narrow{
   margin: 0 auto;
   padding-top: 0px;
-  width: 80%;
+  width: 90%;
   min-width: 300px;
-  max-width: 620px;
+  max-width: 700px;
   text-align: center;
   position: relative;
   

@@ -1,15 +1,13 @@
 ---
 layout: post
 title: "Tings"
-tagline: "Smarter Ownership"
+tagline: "Less Dumb Ownership"
 category: projects
 cover: "tings_logo.png"
 tags: []
 ---
 {% include JB/setup %}
 
-
-## IDEA
 
 Today we own things in a rather old-school way. While our social lives have become increasingly connected and digitally managed, our material possessions have not yet been invited to the same kind of networking.
 
