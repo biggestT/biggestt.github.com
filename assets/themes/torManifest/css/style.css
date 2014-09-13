@@ -81,7 +81,8 @@ strong{
   font-weight: bold;
 }
 
-.content p {
+.content p, .post-full li {
+  float: none;
   /*font-family: 'Savoy', Georgia, serif;*/
   font-size: 1.7em;
   text-align: left;
