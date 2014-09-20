@@ -41,6 +41,9 @@ body {
 ol, ul {
 	list-style: none;
 }
+iframe {
+  width: 100%;
+}
 blockquote, q {
 	quotes: none;
 }
