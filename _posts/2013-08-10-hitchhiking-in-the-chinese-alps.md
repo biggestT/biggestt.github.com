@@ -6,7 +6,6 @@ category: text
 cover: "alps.jpg"
 tags: [adventure, hitchhiking]
 ---
-{% include JB/setup %}
 
 Since censored Chinese Internet isn’t that much fun I felt like I had to go off the line and into the wild. Nothing stopped me from hitchhiking the Northwestern part of the Yunnan province and I soon found myself in a car with a local park ranger. He told me that the guidebooks (2011 edition) telling me that I couldn’t go straight from Deqin to Gongshan were wrong. Apparently I could take a two day hike across the mountains and he sketched down how to go about doing this. Those few lines of text brought me into quite a mess of half stupid shit that was a bit more than I asked for, but just exactly what I needed in order to appreciate whatever Chinese internet has to offer.
 

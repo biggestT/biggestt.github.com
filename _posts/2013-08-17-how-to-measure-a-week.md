@@ -5,8 +5,6 @@ tagline: "Visualizing my time account"
 category: text
 tags: []
 ---
-{% include JB/setup %}
-
 I am 26 years old, almost 2 meters tall, weigh about 85 kilos and to some extent those numbers define me. Still I wanted to go further in quantifying myself. So, before Google did it, I decided to measure what I actually spent my, perhaps valuable, time doing. 
 
 Method
@@ -28,11 +26,8 @@ This stupid experiment made me use an android time-tracking application during o
 
 Result
 --------
+**Update: Graph unfortunately lost at some point**
 
-<div>
-<iframe  height="500" src="https://dl.dropboxusercontent.com/u/113599483/lifelab/index.html">hej</iframe>
-
-</div>
 *Visualization of time spent on different categories during one week, click anywhere to see what happens.*
 
 Discussion

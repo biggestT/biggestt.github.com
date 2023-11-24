@@ -6,7 +6,6 @@ category: text
 cover: democracies1970.png
 tags: []
 ---
-{% include JB/setup %}
 
 Background
 ----------

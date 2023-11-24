@@ -6,7 +6,6 @@ category: text
 cover: "burma.jpg"
 tags: [travelling, burma]
 ---
-{% include JB/setup %}
 
 
 Obviously you will seem like a lonetard as soon as you proclaim your plans of flying solo on a trip. But then you soon realise that alone only is one less than together and sometimes its even more than that. Sometimes you need to hang out with a place instead of your friends. This is what happened when i hanged out with my buddy Burma ..  
